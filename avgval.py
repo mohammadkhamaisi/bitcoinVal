@@ -12,19 +12,26 @@ Bitcoin
 </head>
 <body>
 <h1>
-Bitcoin Values
+<div class="container my-4">
+          <div class="col-md-6 offset-md-4">
+          <h1>Bitcoin Value Application</h1>
+            <img src="https://cdn.pixabay.com/photo/2019/06/23/19/15/bitcoin-4294492_960_720.png" width="150" height="150">
 </h1>
-<p>
-This is a Web Application that shows the bitcoin latest value and average over the last 10 minutes
-</p>
-<h2>
-The current BTC value in USD:
-$$replace_this1$$
-</h2>
-<h2>
-The Average value of BTC over the last 10 minutes in USD:
-$$replace_this2$$
-</h2>
+</div>
+          <hr>
+          <hr>
+
+            <div class="col-md-12 offset-md-1">
+            <h3 class="center">Real time price of Bitcoin is: $$replace_this1$$ $</h3>
+            </div>
+            <hr>
+            <div class="col-md-12 offset-md-1">
+            <h3 class="center">Average Price for the last 10 minutes is: $$replace_this2$$ $</h3>
+            </div>
+            <hr>
+          <hr>
+          <hr>
+        </div>
 </body>
 </html>"""
 
